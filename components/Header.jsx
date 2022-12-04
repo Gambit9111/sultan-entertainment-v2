@@ -44,21 +44,21 @@ export default function Header() {
                   <motion.div
                       initial={{ y: -150, opacity: 0, scale: 4 }}
                       animate={{ y: 0, opacity: 1, scale: 1 }}
-                      transition={{ duration: 0.6, delay: 1 }}
+                      transition={{ duration: 0.5, delay: 1 }}
                   >
                       <SocialIcon url="https://spotify.com/" fgColor='#515860' bgColor='transparent'/>
                   </motion.div>
                   <motion.div
                       initial={{ y: -150, opacity: 0, scale: 4 }}
                       animate={{ y: 0, opacity: 1, scale: 1 }}
-                      transition={{ duration: 0.7, delay: 1.5 }}
+                      transition={{ duration: 0.5, delay: 1.5 }}
                   >
                       <SocialIcon url="https://itunes.com/" fgColor='#515860' bgColor='transparent'/>
                   </motion.div>
                   <motion.div
                       initial={{ y: -150, opacity: 0, scale: 4 }}
                       animate={{ y: 0, opacity: 1, scale: 1 }}
-                      transition={{ duration: 0.8, delay: 2 }}
+                      transition={{ duration: 0.5, delay: 2 }}
                   >
                       <SocialIcon url="https://instagram.com/" fgColor='#515860' bgColor='transparent'/>
                   </motion.div>
